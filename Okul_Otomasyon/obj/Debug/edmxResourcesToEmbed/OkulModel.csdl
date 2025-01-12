@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbo.OkulOtomasyonModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TBL_BRANSLAR">
+    <Key>
+      <PropertyRef Name="BRANSID" />
+    </Key>
+    <Property Name="BRANSID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BRANS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBL_ILCELER">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="il_id" Type="Int32" Nullable="false" />
+    <Property Name="ilce_adi" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBL_ILLER">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="il_adi" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TBL_OGRENCILER">
+    <Key>
+      <PropertyRef Name="OGRID" />
+    </Key>
+    <Property Name="OGRID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OGRAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="OGRSOYAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="OGRTC" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="OGRNO" Type="String" MaxLength="4" FixedLength="true" Unicode="false" />
+    <Property Name="OGRSINIF" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="OGRDOGTAR" Type="String" MaxLength="10" FixedLength="true" Unicode="false" />
+    <Property Name="OGRCINSIYET" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="OGRVELIID" Type="Int32" />
+    <Property Name="OGRIL" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+    <Property Name="OGRILCE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="OGRADRES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OGRFOTO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBL_VELİLER" Relationship="Self.FK_TBL_OGRENCILER_TBL_VELİLER" FromRole="TBL_OGRENCILER" ToRole="TBL_VELİLER" />
+    <NavigationProperty Name="TBL_OGRAYARLAR" Relationship="dbo.OkulOtomasyonModel.FK_TBL_OGRAYARLAR_TBL_OGRENCILER" FromRole="TBL_OGRENCILER" ToRole="TBL_OGRAYARLAR" />
+  </EntityType>
+  <EntityType Name="TBL_OGRETMENLER">
+    <Key>
+      <PropertyRef Name="OGRTID" />
+    </Key>
+    <Property Name="OGRTID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OGRTAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="OGRTSOYAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="OGRTTC" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="OGRTTEL" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="OGRTMIAL" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="OGRTIL" Type="String" MaxLength="13" FixedLength="false" Unicode="false" />
+    <Property Name="OGRTILCE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="OGRTADRES" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="OGRTBRANS" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="OGRTFOTO" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBL_AYARLAR" Relationship="dbo.OkulOtomasyonModel.FK_TBL_AYARLAR_TBL_OGRETMENLER1" FromRole="TBL_OGRETMENLER" ToRole="TBL_AYARLAR" />
+  </EntityType>
+  <EntityType Name="TBL_VELİLER">
+    <Key>
+      <PropertyRef Name="VELIID" />
+    </Key>
+    <Property Name="VELIID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VELIANNE" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="VELIBABA" Type="String" MaxLength="30" FixedLength="true" Unicode="true" />
+    <Property Name="VELITEL1" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="VELITEL2" Type="String" MaxLength="15" FixedLength="true" Unicode="false" />
+    <Property Name="VELİMAİL" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBL_OGRENCILER" Relationship="Self.FK_TBL_OGRENCILER_TBL_VELİLER" FromRole="TBL_VELİLER" ToRole="TBL_OGRENCILER" />
+  </EntityType>
+  <Association Name="FK_TBL_OGRENCILER_TBL_VELİLER">
+    <End Role="TBL_VELİLER" Type="Self.TBL_VELİLER" Multiplicity="0..1" />
+    <End Role="TBL_OGRENCILER" Type="Self.TBL_OGRENCILER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_VELİLER">
+        <PropertyRef Name="VELIID" />
+      </Principal>
+      <Dependent Role="TBL_OGRENCILER">
+        <PropertyRef Name="OGRVELIID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbOkulEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TBL_BRANSLAR" EntityType="Self.TBL_BRANSLAR" />
+    <EntitySet Name="TBL_ILCELER" EntityType="Self.TBL_ILCELER" />
+    <EntitySet Name="TBL_ILLER" EntityType="Self.TBL_ILLER" />
+    <EntitySet Name="TBL_OGRENCILER" EntityType="Self.TBL_OGRENCILER" />
+    <EntitySet Name="TBL_OGRETMENLER" EntityType="Self.TBL_OGRETMENLER" />
+    <EntitySet Name="TBL_VELİLER" EntityType="Self.TBL_VELİLER" />
+    <AssociationSet Name="FK_TBL_OGRENCILER_TBL_VELİLER" Association="Self.FK_TBL_OGRENCILER_TBL_VELİLER">
+      <End Role="TBL_VELİLER" EntitySet="TBL_VELİLER" />
+      <End Role="TBL_OGRENCILER" EntitySet="TBL_OGRENCILER" />
+    </AssociationSet>
+    <EntitySet Name="TBL_AYARLAR" EntityType="dbo.OkulOtomasyonModel.TBL_AYARLAR" />
+    <EntitySet Name="TBL_OGRAYARLAR" EntityType="dbo.OkulOtomasyonModel.TBL_OGRAYARLAR" />
+    <AssociationSet Name="FK_TBL_AYARLAR_TBL_OGRETMENLER1" Association="dbo.OkulOtomasyonModel.FK_TBL_AYARLAR_TBL_OGRETMENLER1">
+      <End Role="TBL_OGRETMENLER" EntitySet="TBL_OGRETMENLER" />
+      <End Role="TBL_AYARLAR" EntitySet="TBL_AYARLAR" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBL_OGRAYARLAR_TBL_OGRENCILER" Association="dbo.OkulOtomasyonModel.FK_TBL_OGRAYARLAR_TBL_OGRENCILER">
+      <End Role="TBL_OGRENCILER" EntitySet="TBL_OGRENCILER" />
+      <End Role="TBL_OGRAYARLAR" EntitySet="TBL_OGRAYARLAR" />
+    </AssociationSet>
+    <FunctionImport Name="AyarlarOgrenciler" ReturnType="Collection(dbo.OkulOtomasyonModel.AyarlarOgrenciler_Result)" />
+    <FunctionImport Name="AyarlarOgretmenler" ReturnType="Collection(dbo.OkulOtomasyonModel.AyarlarOgretmenler_Result)" />
+    <FunctionImport Name="OgrenciVeli5" ReturnType="Collection(dbo.OkulOtomasyonModel.OgrenciVeli5_Result)" />
+    <FunctionImport Name="OgrenciVeli6" ReturnType="Collection(dbo.OkulOtomasyonModel.OgrenciVeli6_Result)" />
+    <FunctionImport Name="OgrenciVeli7" ReturnType="Collection(dbo.OkulOtomasyonModel.OgrenciVeli7_Result)" />
+    <FunctionImport Name="OgrenciVeli8" ReturnType="Collection(dbo.OkulOtomasyonModel.OgrenciVeli8_Result)" />
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(dbo.OkulOtomasyonModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(dbo.OkulOtomasyonModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <EntityType Name="TBL_AYARLAR">
+    <Key>
+      <PropertyRef Name="AYARLARID" />
+    </Key>
+    <Property Name="AYARLARID" Type="Int32" Nullable="false" />
+    <Property Name="OGRTSIFRE" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBL_OGRETMENLER" Relationship="dbo.OkulOtomasyonModel.FK_TBL_AYARLAR_TBL_OGRETMENLER1" FromRole="TBL_AYARLAR" ToRole="TBL_OGRETMENLER" />
+  </EntityType>
+  <EntityType Name="TBL_OGRAYARLAR">
+    <Key>
+      <PropertyRef Name="AYARLAROGRID" />
+    </Key>
+    <Property Name="AYARLAROGRID" Type="Int32" Nullable="false" />
+    <Property Name="OGRSIFRE" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBL_OGRENCILER" Relationship="dbo.OkulOtomasyonModel.FK_TBL_OGRAYARLAR_TBL_OGRENCILER" FromRole="TBL_OGRAYARLAR" ToRole="TBL_OGRENCILER" />
+  </EntityType>
+  <Association Name="FK_TBL_AYARLAR_TBL_OGRETMENLER1">
+    <End Type="dbo.OkulOtomasyonModel.TBL_OGRETMENLER" Role="TBL_OGRETMENLER" Multiplicity="1" />
+    <End Type="dbo.OkulOtomasyonModel.TBL_AYARLAR" Role="TBL_AYARLAR" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_OGRETMENLER">
+        <PropertyRef Name="OGRTID" />
+      </Principal>
+      <Dependent Role="TBL_AYARLAR">
+        <PropertyRef Name="AYARLARID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBL_OGRAYARLAR_TBL_OGRENCILER">
+    <End Type="dbo.OkulOtomasyonModel.TBL_OGRENCILER" Role="TBL_OGRENCILER" Multiplicity="1" />
+    <End Type="dbo.OkulOtomasyonModel.TBL_OGRAYARLAR" Role="TBL_OGRAYARLAR" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="TBL_OGRENCILER">
+        <PropertyRef Name="OGRID" />
+      </Principal>
+      <Dependent Role="TBL_OGRAYARLAR">
+        <PropertyRef Name="AYARLAROGRID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="AyarlarOgrenciler_Result">
+    <Property Type="Int32" Name="AYARLAROGRID" Nullable="false" />
+    <Property Type="String" Name="OGRADSOYAD" Nullable="true" MaxLength="61" />
+    <Property Type="String" Name="OGRSINIF" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OGRTC" Nullable="true" MaxLength="11" />
+    <Property Type="String" Name="OGRSIFRE" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRFOTO" Nullable="true" MaxLength="500" />
+  </ComplexType>
+  <ComplexType Name="AyarlarOgretmenler_Result">
+    <Property Type="Int32" Name="AYARLARID" Nullable="false" />
+    <Property Type="String" Name="OGRTADSOYAD" Nullable="true" MaxLength="61" />
+    <Property Type="String" Name="OGRTBRANS" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRTTC" Nullable="true" MaxLength="11" />
+    <Property Type="String" Name="OGRTSIFRE" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRTFOTO" Nullable="true" MaxLength="500" />
+  </ComplexType>
+  <ComplexType Name="OgrenciVeli5_Result">
+    <Property Type="Int32" Name="OGRID" Nullable="false" />
+    <Property Type="String" Name="OGRAD" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRSOYAD" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRTC" Nullable="true" MaxLength="11" />
+    <Property Type="String" Name="OGRNO" Nullable="true" MaxLength="4" />
+    <Property Type="String" Name="OGRSINIF" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OGRDOGTAR" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OGRCINSIYET" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="OGRIL" Nullable="true" MaxLength="13" />
+    <Property Type="String" Name="OGRILCE" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="OGRADRES" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OGRFOTO" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="VELIANNEBABA" Nullable="true" MaxLength="63" />
+  </ComplexType>
+  <ComplexType Name="OgrenciVeli6_Result">
+    <Property Type="Int32" Name="OGRID" Nullable="false" />
+    <Property Type="String" Name="OGRAD" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRSOYAD" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRTC" Nullable="true" MaxLength="11" />
+    <Property Type="String" Name="OGRNO" Nullable="true" MaxLength="4" />
+    <Property Type="String" Name="OGRSINIF" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OGRDOGTAR" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OGRCINSIYET" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="OGRIL" Nullable="true" MaxLength="13" />
+    <Property Type="String" Name="OGRILCE" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="OGRADRES" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OGRFOTO" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="VELIANNEBABA" Nullable="true" MaxLength="63" />
+  </ComplexType>
+  <ComplexType Name="OgrenciVeli7_Result">
+    <Property Type="Int32" Name="OGRID" Nullable="false" />
+    <Property Type="String" Name="OGRAD" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRSOYAD" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRTC" Nullable="true" MaxLength="11" />
+    <Property Type="String" Name="OGRNO" Nullable="true" MaxLength="4" />
+    <Property Type="String" Name="OGRSINIF" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OGRDOGTAR" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OGRCINSIYET" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="OGRIL" Nullable="true" MaxLength="13" />
+    <Property Type="String" Name="OGRILCE" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="OGRADRES" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OGRFOTO" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="VELIANNEBABA" Nullable="true" MaxLength="63" />
+  </ComplexType>
+  <ComplexType Name="OgrenciVeli8_Result">
+    <Property Type="Int32" Name="OGRID" Nullable="false" />
+    <Property Type="String" Name="OGRAD" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRSOYAD" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="OGRTC" Nullable="true" MaxLength="11" />
+    <Property Type="String" Name="OGRNO" Nullable="true" MaxLength="4" />
+    <Property Type="String" Name="OGRSINIF" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OGRDOGTAR" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="OGRCINSIYET" Nullable="true" MaxLength="1" />
+    <Property Type="String" Name="OGRIL" Nullable="true" MaxLength="13" />
+    <Property Type="String" Name="OGRILCE" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="OGRADRES" Nullable="true" MaxLength="100" />
+    <Property Type="String" Name="OGRFOTO" Nullable="true" MaxLength="500" />
+    <Property Type="String" Name="VELIANNEBABA" Nullable="true" MaxLength="63" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

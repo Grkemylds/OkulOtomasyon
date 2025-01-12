@@ -1,0 +1,146 @@
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\Okul_Otomasyon.exe.config
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\Okul_Otomasyon.exe
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\Okul_Otomasyon.pdb
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Data.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Drawing.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraBars.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Office.v24.1.Core.dll
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Data.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.csproj.AssemblyReference.cache
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.Form1.resources
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.frmOgretmenler.resources
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.Properties.Resources.resources
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.csproj.GenerateResource.cache
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.exe.licenses
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.csproj.CoreCompileInputs.cache
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Oto.E5C6EBC4.Up2Date
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.exe
+C:\Users\gorke\source\repos\Okul_Otomasyon\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.pdb
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\Okul_Otomasyon.exe.config
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\Okul_Otomasyon.exe
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\Okul_Otomasyon.pdb
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Data.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Drawing.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraBars.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Office.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Data.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.csproj.AssemblyReference.cache
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.Form1.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.frmOgretmenler.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.Properties.Resources.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.csproj.GenerateResource.cache
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.exe.licenses
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.csproj.CoreCompileInputs.cache
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Oto.E5C6EBC4.Up2Date
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.exe
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 2\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.pdb
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\Okul_Otomasyon.exe.config
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\Okul_Otomasyon.exe
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\Okul_Otomasyon.pdb
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Data.Desktop.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Data.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Drawing.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Printing.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Utils.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraBars.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraEditors.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraGrid.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraLayout.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraPrinting.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Drawing.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Sparkline.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.RichEdit.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraTreeList.v24.1.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Office.v24.1.Core.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Data.Desktop.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Data.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Drawing.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Printing.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Utils.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraBars.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraEditors.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraGrid.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraLayout.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraPrinting.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Pdf.v24.1.Drawing.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Sparkline.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.RichEdit.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.XtraTreeList.v24.1.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\DevExpress.Office.v24.1.Core.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.csproj.AssemblyReference.cache
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.Form1.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.frmOgretmenler.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.Properties.Resources.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.csproj.GenerateResource.cache
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.exe.licenses
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.csproj.CoreCompileInputs.cache
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Oto.E5C6EBC4.Up2Date
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.exe
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.pdb
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.FrmNufusCuzdani.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.frmOgrenciler.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\EntityFramework.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\EntityFramework.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.frmVeliler.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.frmAyarlar.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.FrmGiris.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.FrmOgrenciAnaModül.resources
+C:\Users\gorke\Desktop\C#Otomasyon\Okul_Otomasyon - 3\Okul_Otomasyon\obj\Debug\Okul_Otomasyon.frmOgretmenAnamodul.resources
